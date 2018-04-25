@@ -1,7 +1,7 @@
-import { NavitiaUrlBuilder } from '../NavitiaUrlBuilder';
+import { NavitiaUrlBuilder } from '../../NavitiaUrlBuilder';
 
-describe('NavitiaUrlBuilder', () => {
-    it('should contain endpoint', () => {
+describe('Full usage', () => {
+    it('should return a fully parameterized url', () => {
         const endpoint = new NavitiaUrlBuilder()
             .endpoint('https://test-endpoint.fr')
             .v1()
