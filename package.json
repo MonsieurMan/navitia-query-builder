@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx,.spec.ts}'",
+    "lint": "tslint -c tslint.json 'src/**/*.{ts,spec.ts}'",
     "pretest": "npm run lint",
     "test": "jest",
     "report-coverage": "coveralls coverage/lcov.info"
@@ -28,15 +28,13 @@
       }
     },
     "transform": {
-      "^.+\\.tsx?$": "ts-jest"
+      "^.+\\.ts?$": "ts-jest"
     },
     "collectCoverage": true,
     "testRegex": "(/src/.*|(\\.|/)(spec))\\.spec.ts$",
     "moduleFileExtensions": [
       "ts",
-      "tsx",
       "js",
-      "jsx",
       "json",
       "node"
     ]
