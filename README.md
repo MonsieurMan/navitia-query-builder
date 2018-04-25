@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/MonsieurMan/navitia-query-builder.svg?branch=master)](https://travis-ci.org/MonsieurMan/navitia-query-builder)
 # Navitia Query Builder
 This packace is an attempt at creating a better experience to query navitia APIs from javascript and typescript.  
 > This is currently a WIP
