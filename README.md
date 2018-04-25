@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/MonsieurMan/navitia-query-builder.svg?branch=master)](https://travis-ci.org/MonsieurMan/navitia-query-builder)
+[![Coverage Status](https://coveralls.io/repos/github/MonsieurMan/navitia-query-builder/badge.svg?branch=master)](https://coveralls.io/github/MonsieurMan/navitia-query-builder?branch=master)
 # Navitia Query Builder
 This packace is an attempt at creating a better experience to query navitia APIs from javascript and typescript.  
 > This is currently a WIP
