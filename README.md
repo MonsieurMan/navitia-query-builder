@@ -15,7 +15,11 @@ const departures = new NavitiaUrlBuilder()
  
 ```
 ## TODO
-- [ ] travis
-- [ ] coveralls
-- [ ] full params for departure
-- [ ] vscode test with F5
+- [ ] Travis
+- [ ] Coveralls
+- [ ] Vscode test with F5
+- [ ] Full params for departure
+- [ ] Extract parameters (count, depth, ...) into their own generic class
+- [ ] Beta npm
+- [ ] Minimal doc
+- [ ] Add types ? 
