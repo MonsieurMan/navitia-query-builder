@@ -1,0 +1,9 @@
+src/
+node_modules/
+coverage/
+
+tslint.json
+tsconfig.json
+tsconfig.spec.json
+.travis.yml
+.gitignore
