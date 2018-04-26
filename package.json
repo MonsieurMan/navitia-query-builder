@@ -1,6 +1,6 @@
 {
   "name": "navitia-query-builder",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Fluently build Navitia query URLs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
