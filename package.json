@@ -19,8 +19,8 @@
     "clean": "rimraf ./dist",
     "build": " tsc",
     "lint": "tslint -c tslint.json 'src/**/*.{ts,spec.ts}'",
-    "pretest": "npm run lint",
     "test": "jest",
+    "pretest": "npm run lint",
     "report-coverage": "coveralls coverage/lcov.info"
   },
   "devDependencies": {

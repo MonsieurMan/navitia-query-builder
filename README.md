@@ -3,7 +3,9 @@
 
 # Navitia Query Builder
 This packace is an attempt at creating a better experience to query navitia APIs from javascript and typescript.  
-> This is currently a WIP
+## Disclaimer
+This package is currently a WIP and the API **won't be stable** until **1.0**
+
 
 ```typescript
 // Current API
@@ -19,7 +21,8 @@ const departures = new NavitiaUrlBuilder()
  
 ```
 ## TODO
-- [ ] Beta npm
+- [x] Beta npm
+- [ ] Make library fully immutable
 - [ ] ? Minify package 
 - [ ] Extract jest config from package.json
 - [ ] Travis

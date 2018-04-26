@@ -7,7 +7,7 @@ describe('Full usage', () => {
             .v1()
             .coverage('sncf')
             .stopArea('OCE:SA:87713040')
-            .departure()
+            .departures()
             .count(5)
             .fromDateTime(new Date('10/04/1998'))
             .untilDateTime(new Date('11/04/1998'))
