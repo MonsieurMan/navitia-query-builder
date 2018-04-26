@@ -20,6 +20,7 @@ const departures = new NavitiaUrlBuilder()
 ```
 ## TODO
 - [ ] Beta npm
+- [ ] ? Minify package 
 - [ ] Extract jest config from package.json
 - [ ] Travis
 - [ ] Coveralls
@@ -27,4 +28,4 @@ const departures = new NavitiaUrlBuilder()
 - [ ] Full params for departure
 - [ ] Extract parameters (count, depth, ...) into their own generic class
 - [ ] Minimal doc
-- [ ] Add types ? 
+- [ ] ? Add types 

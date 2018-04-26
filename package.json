@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Fluently build Navitia query URLs",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "bugs": {
     "url": "https://github.com/MonsieurMan/navitia-query-builder/issues"
   },
@@ -14,8 +15,9 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "prepublish": "build",
-    "build": "rimraf ./dist && tsc",
+    "prepare": "npm run clean && npm run build",
+    "clean": "rimraf ./dist",
+    "build": " tsc",
     "lint": "tslint -c tslint.json 'src/**/*.{ts,spec.ts}'",
     "pretest": "npm run lint",
     "test": "jest",
