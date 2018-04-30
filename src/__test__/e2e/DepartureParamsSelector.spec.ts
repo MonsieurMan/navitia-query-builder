@@ -9,8 +9,8 @@ describe('Full usage', () => {
             .stopArea('OCE:SA:87713040')
             .departures()
             .count(5)
-            .fromDateTime(new Date('10/04/1998'))
-            .untilDateTime(new Date('11/04/1998'))
+            .fromDateTime(new Date('10 April 1998 00:00 UTC'))
+            .untilDateTime(new Date('11 April 1998 00:00 UTC'))
             .parseUrl();
 
         expect(endpoint)
@@ -20,7 +20,7 @@ describe('Full usage', () => {
                 + '/stop_areas/stop_area:OCE:SA:87713040'
                 + '/departures?'
                 + 'count=5&'
-                + 'from_date_time=1998-10-03T22:00:00.000Z&'
-                + 'until_date_time=1998-11-03T23:00:00.000Z&');
+                + 'from_date_time=1998-04-10T00:00:00.000Z&'
+                + 'until_date_time=1998-04-11T00:00:00.000Z&');
     });
 });
