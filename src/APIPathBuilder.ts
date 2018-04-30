@@ -1,5 +1,5 @@
 import { DepartureParamsSelector } from './DepartureParamsSelector';
-import { URLSegment } from './UrlSegment';
+import { URLSegment } from './URLSegment';
 
 export class APIPathBuilder extends URLSegment {
     /**

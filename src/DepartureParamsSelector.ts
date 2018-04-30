@@ -1,4 +1,4 @@
-import { URLSegment } from './UrlSegment';
+import { URLSegment } from './URLSegment';
 
 export class DepartureParamsSelector extends URLSegment {
 

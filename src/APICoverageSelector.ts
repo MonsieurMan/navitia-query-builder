@@ -1,5 +1,5 @@
 import { APIPathBuilder } from './APIPathBuilder';
-import { URLSegment } from './UrlSegment';
+import { URLSegment } from './URLSegment';
 
 export class APICoverageSelector extends URLSegment {
     /**

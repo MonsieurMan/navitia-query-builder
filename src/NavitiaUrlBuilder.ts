@@ -1,4 +1,4 @@
-import { APIVersionSelector } from './ApiVersionSelector';
+import { APIVersionSelector } from './APIVersionSelector';
 
 /**
  * Entry point to build a query URL.

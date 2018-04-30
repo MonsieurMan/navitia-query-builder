@@ -1,5 +1,5 @@
 import { APICoverageSelector } from './APICoverageSelector';
-import { URLSegment } from './UrlSegment';
+import { URLSegment } from './URLSegment';
 
 export class APIVersionSelector extends URLSegment {
     /**
