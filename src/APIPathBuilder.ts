@@ -11,9 +11,14 @@ export class APIPathBuilder extends URLSegment {
      *  .v1()
      *  .coverage('sncf')
      *  .stopArea('OCE:SA:87713040');
+     * // or
+     *  .stopArea('stop_area:OCE:SA:87713040');
      */
     public stopArea(stopArea: string) {
-        return new APIPathBuilder(`/stop_areas/stop_area:${stopArea}`, this);
+        const stopCode = stopArea.startsWith('stop_area:')
+            ? stopArea.slice(10)
+            : stopArea;
+        return new APIPathBuilder(`/stop_areas/stop_area:${stopCode}`, this);
     }
 
     /**
