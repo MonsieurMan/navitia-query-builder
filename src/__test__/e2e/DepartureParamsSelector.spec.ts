@@ -20,7 +20,7 @@ describe('Full usage', () => {
                 + '/stop_areas/stop_area:OCE:SA:87713040'
                 + '/departures?'
                 + 'count=5&'
-                + 'from_date_time=1998-04-10T00:00:00.000Z&'
-                + 'until_date_time=1998-04-11T00:00:00.000Z&');
+                + 'from_datetime=1998-04-10T00:00:00.000Z&'
+                + 'until_datetime=1998-04-11T00:00:00.000Z&');
     });
 });

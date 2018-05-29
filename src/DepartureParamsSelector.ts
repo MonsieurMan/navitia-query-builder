@@ -15,7 +15,7 @@ export class DepartureParamsSelector extends URLSegment {
      * @param fromDateTime Minimum date time before which results will not be included.
      */
     public fromDateTime(fromDateTime: Date) {
-        return new DepartureParamsSelector(`from_date_time=${fromDateTime.toISOString()}&`, this);
+        return new DepartureParamsSelector(`from_datetime=${fromDateTime.toISOString()}&`, this);
     }
 
     /**
@@ -23,6 +23,6 @@ export class DepartureParamsSelector extends URLSegment {
      * @param untilDateTime Maximum date time after which results will not be included.
      */
     public untilDateTime(untilDateTime: Date) {
-        return new DepartureParamsSelector(`until_date_time=${untilDateTime.toISOString()}&`, this);
+        return new DepartureParamsSelector(`until_datetime=${untilDateTime.toISOString()}&`, this);
     }
 }
